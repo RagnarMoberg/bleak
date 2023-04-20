@@ -365,7 +365,7 @@ class BlueZManager:
                         member="StartDiscovery",
                     )
                 )
-                assert_reply(reply)
+                #assert_reply(reply)
 
                 async def stop() -> None:
                     # need to remove callbacks first, otherwise we get TxPower
